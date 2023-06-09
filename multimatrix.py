@@ -1,7 +1,7 @@
 s1=[[1,2,3],[-3,5,-7],[12,-67,4]]
 s2=[[2,3,4],[6,7,8],[1,2,3]]
 s3=[[0,0,0],[0,0,0],[0,0,0]]
-for i in range(len(s2)):
+for i in range(len(s1)):
     for j in range(len(s2)):
-        s3[i][j]=s1[i][j]+s2[i][j]
+        s3[i][j]=s1[i][j]*s2[i][j]
         print(s3)
